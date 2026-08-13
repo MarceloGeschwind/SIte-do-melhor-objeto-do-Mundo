@@ -1,73 +1,206 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Fidget Spinner</title>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>FidgetSpinner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="favicon_io/favicon.ico">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous"
+    >
 
-        <link rel="icon" type="image/png" href="favicon_io/favicon.ico">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
 
-        <link rel='stylesheet' href="CSS/style.css">
-    </head>
-    <body>
+<body>
+
+    <header>Fidget Spinner</header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Dropdown
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Action</a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Another action
+                                </a>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Something else here
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">
+                            Disabled
+                        </a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                    >
+                  
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+              <button id="altfundo">Alterar fundo</button>
+              <button id="altfundot">Alterar fundo</button>
+            </div>
+        </div>
+    </nav>
+
+    <p div="inicio">
+        O Fidget Spinner é um brinquedo de mão criado para girar rapidamente
+        sobre um eixo central. Seu design possui três ou mais pontas com
+        rolamentos que permitem uma rotação suave e prolongada. Além de ser
+        divertido, muitas pessoas utilizam o Fidget Spinner como forma de
+        aliviar o estresse, melhorar a concentração e ocupar as mãos durante
+        momentos de ansiedade ou tédio. Lançado em grande escala por volta de
+        2017, ele se tornou uma febre mundial entre crianças, adolescentes e
+        adultos. Atualmente, existem diversos modelos, cores e materiais,
+        tornando o brinquedo não apenas um passatempo, mas também um item de
+        coleção para muitos fãs.
         
-        <header>Fidget Spinner</header>
-        <p>O Fidget Spinner é um brinquedo de mão criado para girar rapidamente sobre um eixo
-             central. Seu design possui três ou mais pontas com rolamentos que permitem uma 
-             rotação suave e prolongada. Além de ser divertido, muitas pessoas utilizam o Fidget
-              Spinner como forma de aliviar o estresse, melhorar a concentração e ocupar as mãos
-               durante momentos de ansiedade ou tédio. Lançado em grande escala por volta de 
-               2017, ele se tornou uma febre mundial entre crianças, adolescentes e adultos. 
-               Atualmente, existem diversos modelos, cores e materiais, tornando o brinquedo 
-               não apenas um passatempo, mas também um item de coleção para muitos fãs.</p>
+    </p>
+    <p div="inicio">
+        O Fidget Spinner é um pequeno brinquedo desenvolvido para ser segurado e girado 
+        com os dedos. Ele possui um eixo central com rolamentos que permitem que suas
+         pontas girem de maneira suave e rápida. Existem diversos modelos, com diferentes
+          formatos, cores e materiais. Além de ser divertido de usar, seu tamanho compacto 
+          facilita o transporte e faz dele um objeto simples para passar o tempo e manter 
+          as mãos ocupadas.</p>
 
-        <section id="FIDGET favoritos">
-    <h2>Meu top 5 Fidget Spinner</h2>
+    <section id="FIDGET favoritos">
+        <h2>Meu top 5 Fidget Spinner</h2>
 
-    <div class="container">
+        <div class="container">
+            <div class="card">
+                <img src="Imagens/f5.png">
 
-        <div class="card">
-            <img src="Imagens/f1.png">
-            <h5>Gosto deste fidget spinner porque ele tem um design moderno, é confortável de usar e sua cor branca com detalhes metálicos deixa o visual mais bonito e elegante.</h5>
+                <h5>
+                    Gosto deste fidget spinner porque ele tem um formato
+                    inspirado no Batman, que chama bastante atenção. Seu design
+                    é bonito, confortável de usar e gira de forma suave,
+                    tornando a experiência mais divertida.
+                </h5>
+
+                <a id="b" href="https://shopee.com.br/Fidget-Hand-Spinner-Acrilico-Anti-Stress-Batman-i.592216717.19698578593">CLIQUE AQUI</a>
+            </div>
+
+            <div class="card">
+                <img src="Imagens/f2.png">
+
+                <h5>
+                    Gosto deste fidget spinner porque ele tem um design
+                    simples, uma cor vibrante e é confortável de usar. Além
+                    disso, seu formato clássico facilita o manuseio e a
+                    rotação.
+                </h5>
+
+                <a id="b" href="https://www.pbkids.com.br/fidget-spinner-original---amarelo-1002879460/p?srsltid=AfmBOorNrOaoNi5h6woUMSMGoeGaCTeQ0F-T0FpnlqDeqvxqBZ_VngEw">CLIQUE AQUI</a>
+            </div>
+
+            <div class="card">
+                <img src="Imagens/f3.png">
+                <h5>
+                    Gosto deste fidget spinner porque ele tem um visual moderno
+                    e colorido. Seu acabamento metálico chama a atenção e deixa
+                    o acessório mais bonito e diferente.
+                </h5>
+                <a id="b" href="https://www.worten.pt/produtos/fidget-spinner-toy-durable-steel-bearing-high-speed-spins-precision-metal-hand-spinner-edc-adhd-focus-anxiety-stress-relief-tedio-jedbesetzt-mrkean-9058386009323" > CLIQUE AQUI </a>
+            </div>
+
+            <div class="card">
+                <img src="Imagens/f4.png">
+
+                <h5>
+                    Gosto deste fidget spinner porque ele tem um design elegante
+                    e moderno. Os detalhes em verde dão um toque diferente,
+                    deixando o acessório mais bonito e chamativo.
+                </h5>
+
+                <a id="b" href="https://www.magazineluiza.com.br/fidget-spinner-atesson-de-aco-inoxidavel-ultra-duravel-prata/p/hbadkj4fc2/br/spnr/?srsltid=AfmBOooJvOaoNi5h6woUMSMGoeGaCTeQ0F-T0FpnlqDeqvxqBZ_VngEw">CLIQUE AQUI</a>
+            </div>
+
+            <div class="card">
+                <img src="Imagens/f6.png">
+                <h5>
+                    Gosto deste fidget spinner porque ele tem uma cor vibrante
+                    e luzes coloridas que deixam o uso mais divertido. Seu
+                    design também é simples e confortável de segurar.
+                </h5>
+                <a id="b" href="https://www.amazon.com.br/Pop-Hand-Spinner-com-Girat%C3%B3rio/dp/B0DYVS96MG/ref=sr_1_6?crid=UYTA7BCN1M6L&dib=eyJ2IjoiMSJ9.nNdS4mCMByNg-qivisUfxJTtcXOWqDdZbl-g6VOisiICDMS2akpqvO9WtdTwhAaN8_CEd6L-ISD-xXdJJ2aDn7URWjk7SPlMm4k_vg5S2SbUaYKKiHZyciOqYKzMU2iuZlAnjKTCe9MuZwEfI1KFVb7om-8TKjlYQYIEkj8OHa8G4eOwMgd4t00FRCIuEfz_o-3ZoSqG88hYNY7s9O24J4XvWjmhyheImSyMFiqJ5CRYOCBBxZDsshijoyor_MgB82L56gvggBcSX8HvsoTY4XJTEqt4rDwL2bUKO3rjm0.B3UbdkF1sn0aKpM16Ohkcw3CNnSOilMuTUx1lWSPxpg&dib_tag=se&keywords=fidget%20spinner&qid=1760724182&sprefix=fosget,aps,1141&sr=8-6&tag=brmybest_presses_20579-20" > CLIQUE AQUI </a>
+            </div>
         </div>
 
-        <div class="card">
-            <img src="Imagens/f2.png">
-            <h5>Gosto deste fidget spinner porque ele tem um design simples, uma cor vibrante e é confortável de usar. Além disso, seu formato clássico facilita o manuseio e a rotação.</h5>
-        </div>
-
-        <div class="card">
-            <img src="Imagens/f3.png">
-            <h5>Gosto deste fidget spinner porque ele tem um visual moderno e colorido. Seu acabamento metálico chama a atenção e deixa o acessório mais bonito e diferente.</h5>
-        </div>
-
-        <div class="card">
-            <img src="Imagens/f4.png">
-            <h5>Gosto deste fidget spinner porque ele tem um design elegante e moderno. Os detalhes em verde dão um toque diferente, deixando o acessório mais bonito e chamativo.</h5>
-        </div>
-
-        <div class="card">
-            <img src="Imagens/f5.png">
-            <h5>Gosto deste fidget spinner porque ele tem uma cor vibrante e luzes coloridas que deixam o uso mais divertido. Seu design também é simples e confortável de segurar.</h5>
-        </div>
-
-    </div>
-<br>
-<br>
-<br>
-</section>
-    
-        <button id="a">CLIQUE AQUI</button>
-        
         <br>
-        
-        <a id="b" href="https://ffffidget.com/">SITE MANEIRO CLIQUE AQUI</button></a>
 
-            
-        <footer><h2>2026 - Todos os direitos reservados</h2></footer>
-    </body>
+        <a id="b" href="https://ffffidget.com/"> SITE MANEIRO CLIQUE AQUI</a>
 
+        <footer>
+            <h2>2026 - Todos os direitos reservados</h2>
+        </footer>
+    </section>
 
+    <script src="main.js"></script>
+</body>
 </html>
