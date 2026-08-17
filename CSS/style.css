@@ -1,10 +1,10 @@
 header {
     font-size: 130px !important;
-    background-color: red !important;
+    background-color: rgb(29, 104, 255) !important;
 }
 
 .navbar {
-    background-color: rgb(164, 249, 149) !important;
+    background-color: rgb(35, 177, 243) !important;
 }
 
 p {
@@ -88,7 +88,7 @@ iframe {
 }
 
 footer {
-    background-color: rgb(115, 7, 7) !important;
+    background-color: rgb(3, 247, 255) !important;
     width: 100% !important;
     height: 40px !important;
 }
